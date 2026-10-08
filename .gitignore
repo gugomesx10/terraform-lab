@@ -1,0 +1,30 @@
+# Terraform - arquivos locais
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Variáveis sensíveis
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de erro
+crash.log
+crash.*.log
+
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# Editor e sistema operacional
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
